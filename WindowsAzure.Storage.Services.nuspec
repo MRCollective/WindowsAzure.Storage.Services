@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='UTF-8'?> 
+<package>
+  <metadata>
+    <id>
+       WindowsAzure.Storage.Services
+    </id>
+    <version>
+       0.1.0.0
+    </version>
+    <authors>
+       Robert Moore, Matthew Davies
+    </authors>
+    <description>
+      This library extends the Windows Azure Storage library by Microsoft with a set of services and repositories as well as a factory that makes it easy to dependency inject any Azure Storage calls into your code. It removes a lot of the repetitive code that you would otherwise need to write again and again.
+    </description>
+    <projectUrl>
+      https://github.com/MRCollective/WindowsAzure.Storage.Services
+    </projectUrl>
+    <licenseUrl>
+      https://github.com/MRCollective/WindowsAzure.Storage.Services/blob/master/LICENSE
+    </licenseUrl>
+    <iconUrl>
+      https://raw.github.com/MRCollective/WindowsAzure.Storage.Services/master/logo.png
+    </iconUrl>
+    <tags>
+       Azure Storage Table Blob Queue
+    </tags>
+    <language>
+       en-US
+    </language>
+    <dependencies>
+      <dependency id="WindowsAzure.Storage" version="2.0.0.0-rc" />
+    </dependencies>
+  </metadata>
+  <files>
+     <file src="bin\Release\WindowsAzure.Storage.Services.dll" target="lib\NET40" />
+     <file src="bin\Release\WindowsAzure.Storage.Services.pdb" target="lib\NET40" />
+     <file src="bin\Release\WindowsAzure.Storage.Services.XML" target="lib\NET40" />
+</package>
