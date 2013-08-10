@@ -33,7 +33,8 @@
     </dependencies>
   </metadata>
   <files>
-     <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.dll" target="lib\NET40" />
-     <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.pdb" target="lib\NET40" />
-     <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.XML" target="lib\NET40" />
+    <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.dll" target="lib\NET40" />
+    <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.pdb" target="lib\NET40" />
+    <file src="WindowsAzure.Storage.Services\bin\Release\WindowsAzure.Storage.Services.XML" target="lib\NET40" />
+  </files>
 </package>
